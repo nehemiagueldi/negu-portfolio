@@ -61,7 +61,7 @@ export const FloatingNav = ({
         )}
         style={{
           backdropFilter: "blur(16px) saturate(180%)",
-          background: "linear-gradient(220deg, rgba(2,0,28,100) 0%, rgba(19,23,53,100) 100%);",
+          background: "linear-gradient(220deg, rgba(2,0,28,100) 0%, rgba(19,23,53,100) 100%)",
           borderRadius: "12px",
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}

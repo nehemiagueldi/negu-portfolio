@@ -19,7 +19,7 @@ const cardsQuote = [
     designation: "My Hero Academia",
     content: (
       <p>
-        If all you ever do is <Highlight>look down</Highlight> on people, you won't be able to <Highlight>recognize</Highlight> your own <Highlight>weaknesses</Highlight>.
+        If all you ever do is <Highlight>look down</Highlight> on people, you won&apos;t be able to <Highlight>recognize</Highlight> your own <Highlight>weaknesses</Highlight>.
       </p>
     ),
   },
@@ -29,7 +29,7 @@ const cardsQuote = [
     designation: "Kaiju No. 8",
     content: (
       <p>
-        <Highlight>Chasing</Highlight> your <Highlight>dreams</Highlight> means there’s always someone out there who’s <Highlight>beating</Highlight> you at the thing you care about most.
+        <Highlight>Chasing</Highlight> your <Highlight>dreams</Highlight> means there&apos;s always someone out there who&apos;s <Highlight>beating</Highlight> you at the thing you care about most.
       </p>
     ),
   },
@@ -39,7 +39,7 @@ const cardsQuote = [
     designation: "My Hero Academia",
     content: (
       <p>
-        That's right. <Highlight>Don't worry</Highlight> about what other people think! Hold your <Highlight>head up</Highlight> high and plunge forward!.
+        That&apos;s right. <Highlight>Don&apos;t worry</Highlight> about what other people think! Hold your <Highlight>head up</Highlight> high and plunge forward!.
       </p>
     ),
   },
