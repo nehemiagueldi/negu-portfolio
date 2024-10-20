@@ -1,3 +1,5 @@
+import { flipWords } from "@/data";
+import { FlipWords } from "./ui/FlipWords";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -26,9 +28,11 @@ const Hero = () => {
             filter={true}
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Nehemia, a Next.js Developer based in Indonesia.
-          </p>
+          <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Hi, I&apos;m Nehemia, a 
+            <FlipWords words={flipWords} className="font-semibold" />
+            based in Indonesia.
+          </div>
 
           <a href="#about">
             <MagicButton

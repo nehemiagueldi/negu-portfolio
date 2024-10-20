@@ -16,6 +16,8 @@ export const navItems = [
   },
 ];
 
+export const flipWords = ["Beginner Developer", "Long Life Learner", "Sport Enthusiast"]
+
 export const gridItems = [
   {
     id: 1,
