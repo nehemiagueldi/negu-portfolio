@@ -30,12 +30,12 @@ const Experience = () => {
         ))}
       </div>
       <div className="flex items-center justify-center pt-8 md:pt-0">
-        <a href="#">
+        <a href="/timeline">
           <MagicButton
             title='See Timeline'
             icon={<FaHistory />}
             position='right'
-            otherClasses="transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+            otherClasses="w-full md:w-60 md:mt-10 transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
           />
         </a>
       </div>

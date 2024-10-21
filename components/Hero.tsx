@@ -39,6 +39,7 @@ const Hero = () => {
               title='Show My Work'
               icon={<FaLocationArrow />}
               position='right'
+              otherClasses="w-full md:w-60 md:mt-10"
             />
           </a>
         </div>

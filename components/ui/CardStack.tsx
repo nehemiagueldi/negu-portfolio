@@ -42,17 +42,17 @@ export const CardStack = ({
   };
 
   return (
-    <div className="relative h-60 w-[22rem] md:h-60 md:w-96 lg:h-60 lg:w-[28rem]">
+    <div className="relative h-60 w-60 md:h-60 md:w-96 lg:h-60 lg:w-[28rem]">
       {cards.map((card, index) => {
         return (
           <motion.div
             key={card.id}
-            className="absolute h-60 w-[22rem] md:h-60 md:w-96 lg:h-60 lg:w-[28rem] rounded-3xl p-4 shadow-xl border border-neutral-200 dark:border-white/[0.1]  shadow-black/[0.1] dark:shadow-white/[0.07] flex flex-col justify-between"
+            className="absolute h-60 w-60 md:h-60 md:w-96 lg:h-60 lg:w-[28rem] rounded-3xl p-4 shadow-xl border border-neutral-200 dark:border-white/[0.1]  shadow-black/[0.1] dark:shadow-white/[0.07] flex flex-col justify-between"
             style={{
               transformOrigin: "top center",
               background: "rgb(4,7,29)",
               backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(22,34,55,1) 100%)",
+                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(22,34,55,1) 100%)",
             }}
             animate={{
               top: index * -CARD_OFFSET,
@@ -69,7 +69,7 @@ export const CardStack = ({
               </p>
               {card.designation === "My Hero Academia" &&
                 <p className="text-neutral-400 font-normal dark:text-neutral-200">
-                  <LinkPreview url="https://myheroacademia.fandom.com/wiki/My_Hero_Academia_Wiki" imageSrc="/mha.jpg"
+                  <LinkPreview url="https://myheroacademia.fandom.com/wiki/My_Hero_Academia_Wiki" imageSrc="/anime/mha.jpg"
           isStatic className="underline decoration-neutral-300">
                     {card.designation}
                   </LinkPreview>
@@ -77,7 +77,7 @@ export const CardStack = ({
               }
               {card.designation === "Kaiju No. 8" &&
                 <p className="text-neutral-400 font-normal dark:text-neutral-200">
-                  <LinkPreview url="https://kaiju-no-8.fandom.com/wiki/Kaiju_No_8_Wiki" imageSrc="/kju.jpeg"
+                  <LinkPreview url="https://kaiju-no-8.fandom.com/wiki/Kaiju_No_8_Wiki" imageSrc="/anime/kju.jpeg"
           isStatic className="underline decoration-neutral-300">
                     {card.designation}
                   </LinkPreview>

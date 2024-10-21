@@ -148,7 +148,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-4 relative">
               <div
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
@@ -161,7 +161,7 @@ export const BentoGridItem = ({
                 icon={copied ? <IoMdCheckmarkCircleOutline /> : <IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
+                otherClasses="!bg-[#161A31] w-full md:w-60"
               />
             </div>
           )}
