@@ -6,7 +6,7 @@ import {
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import MagicButton from "./MagicButton";
-import { FaArrowLeft } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 interface TimelineEntry {
   title: string;
@@ -45,7 +45,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <a href="/">
           <MagicButton
             title='Home'
-            icon={<FaArrowLeft />}
+            icon={<FaHome />}
             position='left'
             otherClasses="w-[7.2rem] mt-10 md:w-32"
           />
