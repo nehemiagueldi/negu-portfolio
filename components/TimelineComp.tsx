@@ -55,7 +55,7 @@ const dataTimeline = [
         Main responsibilities:
         </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 text-justify">
-        ▪ Responsible for the development and maintenance of the company's technology infrastructure, implementation of product development, and maintaining information technology security and compliance.
+        ▪ Responsible for the development and maintenance of the company&apos;s technology infrastructure, implementation of product development, and maintaining information technology security and compliance.
         </p>
         {/* POSITION 2 */}
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
