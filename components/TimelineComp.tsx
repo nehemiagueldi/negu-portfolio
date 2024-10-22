@@ -2,10 +2,11 @@ import Image from 'next/image';
 import React from 'react'
 import { Timeline } from './ui/Timeline';
 import { Spotlight } from './ui/Spotlight';
+import { LinkPreview } from './ui/LinkPreview';
 
 const TimelineComp = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-20 md:pt-36">
       <div>
         <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="cyan" />
         <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="pink" />
@@ -24,34 +25,91 @@ const dataTimeline = [
     title: "2024",
     content: (
       <div>
+        {/* COMPANY */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          <LinkPreview url="https://www.linkedin.com/company/hirehub-indonesia" imageSrc="/timeline/hirehub/hirehubplaystore.jpeg"
+          isStatic className="underline decoration-neutral-300">
+            HireHub
+          </LinkPreview>
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          Self-employed | 1 year 7 mos
+        </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Built and launched Aceternity UI and Aceternity UI Pro from scratch
+          Indonesia | Remote
+        </p>
+        {/* POSITION 1 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          Chief Technology Officer (CTO)
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
+          May 2023 - Aug 2024 | 1 year 4 mos
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
+        HireHub is a talent search and recruitment platform designed to connect job seekers with potential employers efficiently. This application allows job seekers to easily create an online profile by uploading their resume, after which they can receive job offers from companies. Employers can search for candidates, and our in-app recommender system assists in finding the best matches based on specified criteria.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
+        Additionally, HireHub offers a messaging feature to enhance communication between employers and candidates, aiming to elevate the recruitment process with advanced features like automatic CV processing and a recommender system to streamline candidate selection for specific roles.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Main responsibilities:
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 text-justify">
+        ▪ Responsible for the development and maintenance of the company's technology infrastructure, implementation of product development, and maintaining information technology security and compliance.
+        </p>
+        {/* POSITION 2 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          Cloud Developer
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
+          Feb 2023 - Aug 2024 | 1 year 7 mos
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Main responsibilities:
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal text-justify">
+        ▪ Manage and maintain cloud-based databases to ensure optimal performance and security.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal text-justify">
+        ▪ Develop and maintain backend systems to support various applications and services.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal text-justify">
+        ▪ Utilize cloud storage solutions, such as buckets, for efficient data management.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal text-justify">
+        ▪ Execute Python scripts and applications from the backend to perform necessary computations and processes.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal text-justify">
+        ▪ Develop and manage APIs to facilitate communication between different services and systems.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 text-justify">
+        ▪ Deploy and manage backend applications on cloud platforms to ensure scalability, reliability, and high availability.
         </p>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="https://assets.aceternity.com/templates/startup-1.webp"
-            alt="startup template"
+            src="/timeline/hirehub/hirehubprofile.jpg"
+            alt="hirehub profile"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://assets.aceternity.com/templates/startup-2.webp"
-            alt="startup template"
+            src="/timeline/hirehub/hirehubtop3.jpg"
+            alt="hirehub top 3"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://assets.aceternity.com/templates/startup-3.webp"
-            alt="startup template"
+            src="/timeline/hirehub/hirehubtopperformer.png"
+            alt="hirehub top performer"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://assets.aceternity.com/templates/startup-4.webp"
-            alt="startup template"
+            src="/timeline/hirehub/hirehubrewind.png"
+            alt="hirehub rewind"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -61,16 +119,20 @@ const dataTimeline = [
     ),
   },
   {
-    title: "Early 2023",
+    title: "2023",
     content: (
       <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          I usually run out of copy, but when I see content this big, I try to
-          integrate lorem ipsum.
+        {/* COMPANY */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          <LinkPreview url="https://www.helios.id" className="underline decoration-neutral-300">
+            PT Helios Informatika Nusantara
+          </LinkPreview>
+        </p>  
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          Internship | 6 mos
         </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-          Lorem ipsum is for people who are too lazy to write copy. But we are
-          not. Here are some more example of beautiful designs I built.
+          Centennial Tower Lt. 12 Jl. Gatot Subroto No.24-25, Jakarta Selatan | On-site
         </p>
         <div className="grid grid-cols-2 gap-4">
           <Image

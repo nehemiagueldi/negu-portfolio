@@ -47,7 +47,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             title='Home'
             icon={<FaHome />}
             position='left'
-            otherClasses="w-[7.2rem] mt-10 md:w-32"
+            otherClasses="w-[7.2rem] mt-10 md:w-32 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
           />
         </a>
       </div>
@@ -56,7 +56,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Changelog from My Journey
         </h2>
         <p className="text-neutral-700 dark:text-neutral-200 text-sm md:text-base">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
+          I&apos;ve embarked on an incredible journey that has shaped my growth and experiences. Here&apos;s
           a timeline of my journey.
         </p>
       </div>
@@ -65,7 +65,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         {data.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-10 md:pt-20 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
