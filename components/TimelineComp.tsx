@@ -326,7 +326,7 @@ const dataTimeline = [
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         English Class:
         </p>
-        <div className="mb-4">
+        <div className="mb-8">
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
           ▪ Spoken Correspondence
           </p>
@@ -371,54 +371,192 @@ const dataTimeline = [
     ),
   },
   {
-    title: "Changelog",
+    title: "2022",
     content: (
       <div>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-          Deployed 5 new components on Aceternity today
+        {/* EXPERIENCE 2 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          <LinkPreview url="https://www.umn.ac.id/" className="underline decoration-neutral-300">
+            Multimedia Nusantara University
+          </LinkPreview>
+        </p>  
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          Contract | 11 mos
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+          Multimedia Nusantara University, Tangerang Selatan, Banten | On-site
+        </p>
+        {/* POSITION 1 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          Laboratory Assistant 
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
+          Aug 2022 - Dec 2022 | 5 mos
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Courses taught:
+        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Database System
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Object Oriented Programming
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Introduction to Multimedia Technology
+          </p>
+        </div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Laboratory Assistant for Database System. Students are taught about:
+        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Introduction to Database System
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ ERD, Database Schema, DDL and DML Statements
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ SELECT Statement, JOIN, Set Operator
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Database Security (Create, Update, Drop User, Create privileges for created users)
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Normalization for Relational Databases
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Stored Procedures
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Cursor, Stored Functions, and Triggers
+          </p>
+        </div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Laboratory Assistant for Object Oriented Programming. Students are taught about:
+        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Introduction to Object Oriented Programming
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Control Structure in Java, Array and Enchaned for loops
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Classes and Objects in Java, Inheritance and Polymorphism
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ UML Diagram, Abstraction, Multiple Inheritance
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Final Keyword and Java Typecasting
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Exception Handling, File Handling
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Software Design Pattern
+          </p>
+        </div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Laboratory Assistant for Intro to Internet Technology. Students are taught about:
         </p>
         <div className="mb-8">
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Card grid component
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ HTML, CSS, vanilla Javascript, Jquery
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Javascript Frameworks such as React and Angular
+          </p>
+        </div>
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <Image
+            src="/timeline/aslab/databasesystem.jpg"
+            alt="database system"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <Image
+            src="/timeline/aslab/oop.jpg"
+            alt="oop"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+          />
+          <div className="col-span-2 flex justify-center">
+            <div className="w-[calc(50%-0.5rem)]">
+              <Image
+                src="/timeline/aslab/ptiganjil22.jpg"
+                alt="ptiganjil22"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </div>
           </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Startup template Aceternity
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Random file upload lol
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Himesh Reshammiya Music CD
-          </div>
-          <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-            ✅ Salman Bhai Fan Club registrations open
-          </div>
+        </div>
+        {/* POSITION 2 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          Laboratory Assistant 
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
+          Jan 2022 - Jun 2022 | 6 mos
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Courses taught:
+        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Introduction to Multimedia Technology
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Algorithm and Data Structures
+          </p>
+        </div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Laboratory Assistant for Intro to Internet Technology. Students are taught about:
+        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ HTML, CSS, vanilla Javascript, Jquery
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Javascript Frameworks such as React and Angular
+          </p>
+        </div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+        Laboratory Assistant for Algorithm and Data Structures. Students are taught about:
+        </p>
+        <div className="mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Array and Pointer, Structures, Unions, and Enumerations, File Processing
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Linked List, Stack and Queue
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Tree, Efficient Binary Tree
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Hashing, Heaps, Graphs, Advanced Graphs
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Sorting, Searching
+          </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
-            src="https://assets.aceternity.com/pro/hero-sections.png"
-            alt="hero template"
+            src="/timeline/aslab/algostrukdat.jpg"
+            alt="algostrukdat"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
           <Image
-            src="https://assets.aceternity.com/features-section.png"
-            alt="feature template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-          <Image
-            src="https://assets.aceternity.com/pro/bento-grids.png"
-            alt="bento template"
-            width={500}
-            height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-          <Image
-            src="https://assets.aceternity.com/cards.png"
-            alt="cards template"
+            src="/timeline/aslab/ptigenap21.jpg"
+            alt="ptigenap21"
             width={500}
             height={500}
             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"

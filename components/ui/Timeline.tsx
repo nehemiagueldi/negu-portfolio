@@ -41,7 +41,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         background: "linear-gradient(90deg, rgba(4,7,29,100) 0%, rgba(10,25,37,1) 50%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className="hidden md:block px-10 md:px-0">
+      {/* <div className="hidden md:block px-10 md:px-0">
         <a href="/">
           <MagicButton
             title='Home'
@@ -50,7 +50,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             otherClasses="w-[7.2rem] mt-10 md:w-32 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
           />
         </a>
-      </div>
+      </div> */}
       <div className="max-w-7xl mx-auto py-14 px-4 md:px-8 lg:px-10 text-center">
         <h2 className="text-xl font-bold md:text-4xl mb-4 text-black dark:text-white">
           Changelog from My Journey
@@ -95,7 +95,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-violet-800 via-teal-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>
