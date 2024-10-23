@@ -218,7 +218,7 @@ const dataTimeline = [
           Feb 2023 - Jul 2023 | 6 mos
         </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
-        The Bangkit 2023 Batch 1 Program is a technology-based learning initiative that aims to develop students' skills in areas such as cloud engineering, machine learning, and mobile development. It is fully supported by world-class Indonesian technology companies and startups affiliated with Merdeka Belajar Kampus Merdeka (MBKM), including Google, GoTo, and Traveloka.
+        The Bangkit 2023 Batch 1 Program is a technology-based learning initiative that aims to develop student&apos;s skills in areas such as cloud engineering, machine learning, and mobile development. It is fully supported by world-class Indonesian technology companies and startups affiliated with Merdeka Belajar Kampus Merdeka (MBKM), including Google, GoTo, and Traveloka.
         </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         Main responsibilities:
