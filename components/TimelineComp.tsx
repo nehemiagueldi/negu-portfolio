@@ -67,24 +67,26 @@ const dataTimeline = [
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         Main responsibilities:
         </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Manage and maintain cloud-based databases to ensure optimal performance and security.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Develop and maintain backend systems to support various applications and services.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Utilize cloud storage solutions, such as buckets, for efficient data management.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Execute Python scripts and applications from the backend to perform necessary computations and processes.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Develop and manage APIs to facilitate communication between different services and systems.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-        ▪ Deploy and manage backend applications on cloud platforms to ensure scalability, reliability, and high availability.
-        </p>
+        <div className="mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Manage and maintain cloud-based databases to ensure optimal performance and security.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Develop and maintain backend systems to support various applications and services.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Utilize cloud storage solutions, such as buckets, for efficient data management.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Execute Python scripts and applications from the backend to perform necessary computations and processes.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Develop and manage APIs to facilitate communication between different services and systems.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Deploy and manage backend applications on cloud platforms to ensure scalability, reliability, and high availability.
+          </p>
+        </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/timeline/hirehub/hirehubprofile.jpg"
@@ -147,27 +149,29 @@ const dataTimeline = [
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         Main responsibilities:
         </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Focuses on front-end website development, ability to create mobile-first and responsive web designs.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Contributions to improving user interfaces and user experiences.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Collaborate with back-end developers to integrate RESTful APIs and work with JSON data.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Independently develop features or components.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Identified and resolved front-end issues and bugs, ensuring smooth functionality.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Participated in regular team meetings and contributed to project planning and brainstorming sessions.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-        ▪ Involvement in peer code reviews to maintain code quality and share knowledge.
-        </p>
+        <div className="mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Focuses on front-end website development, ability to create mobile-first and responsive web designs.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Contributions to improving user interfaces and user experiences.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Collaborate with back-end developers to integrate RESTful APIs and work with JSON data.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Independently develop features or components.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Identified and resolved front-end issues and bugs, ensuring smooth functionality.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Participated in regular team meetings and contributed to project planning and brainstorming sessions.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Involvement in peer code reviews to maintain code quality and share knowledge.
+          </p>
+        </div>
         <div className="grid grid-cols-2 gap-4 mb-8">
           <Image
             src="/timeline/helios/heliosbadminton.jpg"
@@ -223,66 +227,70 @@ const dataTimeline = [
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         Main responsibilities:
         </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Regularly attending and actively engaging in mandatory sessions.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Successfully completing the self-paced learning materials.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Submitting original assignments and projects.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Fulfilling all the designated assignments provided by Bangkit.
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-        ▪ Making significant contributions to the Capstone Project.
-        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Regularly attending and actively engaging in mandatory sessions.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Successfully completing the self-paced learning materials.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Submitting original assignments and projects.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Fulfilling all the designated assignments provided by Bangkit.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Making significant contributions to the Capstone Project.
+          </p>
+        </div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         Technical Material:
         </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Fundamentals of Software Developer - Dicoding
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Programming Logic 101 - Dicoding
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Git Fundamental with GitHub - Dicoding
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Belajar Dasar Pemrograman JavaScript - Dicoding
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Belajar Dasar Pemrograman Web - Dicoding
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Google IT Support Professional Certificate (The Bits and Bytes of Computer Networking) - Coursera
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Google Cloud Computing Foundations - Google Cloud Skill Boost
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud - Dicoding
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Google IT Support Professional Certificate (System Administration and IT Infrastructure Services) - Coursera
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Cloud Engineer Learning Path - Google Cloud Skill Boost
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Menjadi Google Cloud Engineer - Dicoding
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Google Cloud Skills Boost Quest - Google Cloud Skill Boost
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Preparing for Associate Cloud Engineer Certification - Coursera
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-        ▪ Simulasi Ujian Associate Cloud Engineer - Dicoding
-        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Fundamentals of Software Developer - Dicoding
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Programming Logic 101 - Dicoding
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Git Fundamental with GitHub - Dicoding
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Belajar Dasar Pemrograman JavaScript - Dicoding
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Belajar Dasar Pemrograman Web - Dicoding
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Google IT Support Professional Certificate (The Bits and Bytes of Computer Networking) - Coursera
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Google Cloud Computing Foundations - Google Cloud Skill Boost
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud - Dicoding
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Google IT Support Professional Certificate (System Administration and IT Infrastructure Services) - Coursera
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Cloud Engineer Learning Path - Google Cloud Skill Boost
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Menjadi Google Cloud Engineer - Dicoding
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Google Cloud Skills Boost Quest - Google Cloud Skill Boost
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Preparing for Associate Cloud Engineer Certification - Coursera
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Simulasi Ujian Associate Cloud Engineer - Dicoding
+          </p>
+        </div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         Advanced Technical Class:
         </p>
@@ -292,39 +300,43 @@ const dataTimeline = [
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         Soft Skill Class:
         </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Growth Mindset and The Power of Feedback
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Time Management
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Critical Thinking and Problem Solving
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Adaptability and Resilience
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Project Management
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Professional Communication and Networking
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-        ▪ Personal Branding & Interview Communication
-        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Growth Mindset and The Power of Feedback
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Time Management
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Critical Thinking and Problem Solving
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Adaptability and Resilience
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Project Management
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Professional Communication and Networking
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          ▪ Personal Branding & Interview Communication
+          </p>
+        </div>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
         English Class:
         </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Spoken Correspondence
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
-        ▪ Expressing Opinion
-        </p>
-        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-        ▪ Business Presentation
-        </p>
+        <div className="mb-4">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Spoken Correspondence
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Expressing Opinion
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">
+          ▪ Business Presentation
+          </p>
+        </div>
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/timeline/bangkit/certificateofcompletion.png"
