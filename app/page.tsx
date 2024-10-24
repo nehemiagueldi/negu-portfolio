@@ -8,9 +8,8 @@ import Approach from "@/components/Approach";
 import Quote from "@/components/Quote";
 import Footer from "@/components/Footer";
 import { AiFillAliwangwang } from "react-icons/ai";
-import { GiSpellBook } from "react-icons/gi";
+import { GiSpellBook, GiStabbedNote } from "react-icons/gi";
 import { FaUserAstronaut } from "react-icons/fa6";
-import { GiStabbedNote } from "react-icons/gi";
 
 export default function Home() {
   const navItemsHome = [

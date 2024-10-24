@@ -28,7 +28,7 @@ const dataTimeline = [
         {/* EXPERIENCE 1 */}
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
           <LinkPreview url="https://www.linkedin.com/company/hirehub-indonesia" imageSrc="/timeline/hirehub/hirehubplaystore.jpeg"
-          isStatic className="underline decoration-neutral-300">
+          isStatic className="hover:no-underline underline decoration-neutral-300">
             HireHub
           </LinkPreview>
         </p>
@@ -126,7 +126,7 @@ const dataTimeline = [
       <div>
         {/* EXPERIENCE 1 */}
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
-          <LinkPreview url="https://www.helios.id" className="underline decoration-neutral-300">
+          <LinkPreview url="https://www.helios.id" className="hover:no-underline underline decoration-neutral-300">
             PT Helios Informatika Nusantara
           </LinkPreview>
         </p>  
@@ -204,7 +204,7 @@ const dataTimeline = [
         </div>
         {/* EXPERIENCE 2 */}
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
-          <LinkPreview url="https://grow.google/intl/id_id/bangkit/" className="underline decoration-neutral-300">
+          <LinkPreview url="https://grow.google/intl/id_id/bangkit/" className="hover:no-underline underline decoration-neutral-300">
             Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka
           </LinkPreview>
         </p>  
@@ -376,7 +376,7 @@ const dataTimeline = [
       <div>
         {/* EXPERIENCE 2 */}
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
-          <LinkPreview url="https://www.umn.ac.id/" className="underline decoration-neutral-300">
+          <LinkPreview url="https://www.umn.ac.id/" className="hover:no-underline underline decoration-neutral-300">
             Multimedia Nusantara University
           </LinkPreview>
         </p>  
