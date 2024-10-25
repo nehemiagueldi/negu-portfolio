@@ -3,6 +3,7 @@ import React from 'react'
 import { AiFillAliwangwang } from "react-icons/ai";
 import { GiStabbedNote, GiBurningBook, GiSpellBook } from "react-icons/gi";
 import AboutMe from '@/components/AboutMe';
+import Education from '@/components/Education';
 
 export default function Aboutme() {
   const navItemsAboutme = [
@@ -32,6 +33,7 @@ export default function Aboutme() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItemsAboutme}/>
         <AboutMe/>
+        <Education/>
       </div>
     </div>
   )

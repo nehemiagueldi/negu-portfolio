@@ -14,7 +14,7 @@ const AboutMe = () => {
   return (
     <div className="pb-20 pt-20 md:pt-36">
       <div>
-        <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="#00FFFF" /> {/* Cyan */}
+        <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="#7FFFD4" /> {/* Aquamarine */}
         <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="#FF00FF" /> {/* Magenta */}
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="#FFD700" /> {/* Gold */}
         <Spotlight className="-top-20 right-40 h-[70vh] w-[40vw]" fill="#E6E6FA" /> {/* Lavender */}
