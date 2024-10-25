@@ -43,7 +43,7 @@ const Education = () => {
             </h2>
             <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 justify-items-center items-center lg:justify-items-start lg:items-start">
               <p className="mt-4 text-left  text-base/6 text-neutral-200">
-                I've embarked on an incredible journey that has shaped my growth and experiences. Here's a timeline of my journey.
+                I&apos;ve embarked on an incredible journey that has shaped my growth and experiences. Here&apos;s a timeline of my journey.
               </p>
               <a href="/timeline">
                 <MagicButton
@@ -75,7 +75,7 @@ const Education = () => {
               {currentDate}
             </p>
             <p className="max-w-[26rem] text-center text-base/6 text-neutral-200 mt-2">
-              “The greatest day in your life and mine is when we take total responsibility for our attitudes. That's the day we truly grow up.”<br />
+              “The greatest day in your life and mine is when we take total responsibility for our attitudes. That&apos;s the day we truly grow up.”<br />
               ― John C. Maxwell ―
             </p>
           </div>
