@@ -38,11 +38,11 @@ const Education = () => {
           className=""
         >
           <div className="w-full lg:max-w-xs">
-            <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+            <h2 className="text-center lg:text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
               My Timeline
             </h2>
-            <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 justify-items-center items-center lg:justify-items-start lg:items-start">
-              <p className="mt-4 text-left  text-base/6 text-neutral-200">
+            <div className="grid grid-cols-1 gap-4 justify-items-center items-center lg:justify-items-start lg:items-start">
+              <p className="mt-4 text-center lg:text-left text-base/6 text-neutral-200">
                 I&apos;ve embarked on an incredible journey that has shaped my growth and experiences. Here&apos;s a timeline of my journey.
               </p>
               <a href="/timeline">
@@ -81,16 +81,16 @@ const Education = () => {
           </div>
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
-          <div className="w-full md:max-w-md">
-            <div className="grid grid-cols-2 md:grid-cols-1 gap-4 justify-items-center items-center md:justify-items-start md:items-start">
+          <div className="w-full lg:max-w-md">
+            <div className="grid grid-cols-1 gap-4 justify-items-center items-center lg:justify-items-start lg:items-start">
               <div>
-                <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+                <h2 className="max-w-sm md:max-w-lg text-center lg:text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
                   Computer Science (S.Kom)
                 </h2>
-                <p className="mt-2 max-w-[26rem] text-left text-base/6 text-neutral-200 font-semibold">
+                <p className="mt-2 max-w-[26rem] text-center lg:text-left text-base/6 text-neutral-200 font-semibold">
                   Multimedia Nusantara University
                 </p>
-                <p className="m ax-w-[26rem] text-left text-base/6 text-neutral-200">
+                <p className="m ax-w-[26rem] text-center lg:text-left text-base/6 text-neutral-200">
                   Aug 2020 - Aug 2024
                 </p>
               </div>
