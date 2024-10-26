@@ -15,10 +15,11 @@ const Education = () => {
       const now = new Date();
       setCurrentTime(now.toLocaleTimeString('en-US', { hour12: false }));
       setCurrentDate(now.toLocaleDateString('en-GB', {
+        weekday: 'long',
         day: 'numeric',
         month: 'long',
         year: 'numeric',
-      }));
+      }).replace(/(\w+day)/, '$1,'));
     };
 
     updateDateTime();
