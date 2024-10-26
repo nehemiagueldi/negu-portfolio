@@ -35,7 +35,7 @@ const Hero = () => {
               based in Indonesia.
             </div>
 
-            <a href="/aboutme">
+            <a href="/about">
               <MagicButton
                 title='About Me'
                 icon={<FaUserLarge />}

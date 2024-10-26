@@ -4,6 +4,7 @@ import { AiFillAliwangwang } from "react-icons/ai";
 import { GiStabbedNote, GiBurningBook, GiSpellBook } from "react-icons/gi";
 import AboutMe from '@/components/AboutMe';
 import Education from '@/components/Education';
+import ProjectsAbout from '@/components/ProjectsAbout';
 
 export default function Aboutme() {
   const navItemsAboutme = [
@@ -34,6 +35,7 @@ export default function Aboutme() {
         <FloatingNav navItems={navItemsAboutme}/>
         <AboutMe/>
         <Education/>
+        <ProjectsAbout/>
       </div>
     </div>
   )

@@ -40,7 +40,7 @@ const AboutMe = () => {
           <GlareCard className="flex flex-col items-center justify-center">
             <img
               className="h-full w-full absolute inset-0 object-cover"
-              src="/aboutme/profileaboutme.jpg"
+              src="/about/profileaboutme.jpg"
             />
           </GlareCard>
         </div>
@@ -63,7 +63,7 @@ const AboutMe = () => {
           </div>
           <div className="grid grid-cols-2 gap-10 relative justify-items-center my-10 z-10">
             <div>
-              <a href="/aboutme/Resume_Nehemia_Gueldi.pdf" target='_blank'>
+              <a href="/about/Resume_Nehemia_Gueldi.pdf" target='_blank'>
                 <MagicButton
                   title='Resume'
                   icon={<GiScrollUnfurled />}
