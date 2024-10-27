@@ -1,3 +1,4 @@
+"use client";
 import { FloatingNav } from '@/components/ui/FloatingNav'
 import React from 'react'
 import { AiFillAliwangwang } from "react-icons/ai";
@@ -5,6 +6,7 @@ import { GiStabbedNote, GiBurningBook, GiSpellBook } from "react-icons/gi";
 import AboutMe from '@/components/AboutMe';
 import Education from '@/components/Education';
 import ProjectsAbout from '@/components/ProjectsAbout';
+import Contact from '@/components/Contact';
 
 export default function Aboutme() {
   const navItemsAboutme = [
@@ -25,7 +27,7 @@ export default function Aboutme() {
     },
     { 
       name: "Contact", 
-      link: "/#contact",
+      link: "#contact",
       icon: <GiStabbedNote className="h-4 w-4" />,
     },
   ];
@@ -36,6 +38,7 @@ export default function Aboutme() {
         <AboutMe/>
         <Education/>
         <ProjectsAbout/>
+        <Contact/>
       </div>
     </div>
   )
