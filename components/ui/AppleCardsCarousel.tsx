@@ -15,6 +15,8 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Image, { ImageProps } from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
+import MagicButton from "./MagicButton";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 interface CarouselProps {
   items: JSX.Element[];
@@ -23,6 +25,7 @@ interface CarouselProps {
 
 type Card = {
   src: string;
+  url: string;
   title: string;
   category: string;
   content: React.ReactNode;
@@ -156,10 +159,12 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
 
 export const Card = ({
   card,
+  url,
   index,
   layout = false,
 }: {
   card: Card;
+  url: string;
   index: number;
   layout?: boolean;
 }) => {
@@ -220,18 +225,32 @@ export const Card = ({
               >
                 <IconX className="h-6 w-6 text-neutral-100 dark:text-neutral-900" />
               </button>
-              <motion.p
-                layoutId={layout ? `category-${card.title}` : undefined}
-                className="text-base font-medium text-black dark:text-white"
-              >
-                {card.category}
-              </motion.p>
-              <motion.p
-                layoutId={layout ? `title-${card.title}` : undefined}
-                className="text-2xl md:text-5xl font-semibold text-neutral-700 mt-4 dark:text-white"
-              >
-                {card.title}
-              </motion.p>
+              <div className="grid grid-cols-2 gap-5 relative z-10 items-center">
+                <div className="justify-self-start">
+                  <motion.p
+                    layoutId={layout ? `category-${card.title}` : undefined}
+                    className="text-base font-medium text-black dark:text-white"
+                  >
+                    {card.category}
+                  </motion.p>
+                  <motion.p
+                    layoutId={layout ? `title-${card.title}` : undefined}
+                    className="text-2xl md:text-5xl font-semibold text-neutral-700 mt-4 dark:text-white"
+                  >
+                    {card.title}
+                  </motion.p>
+                </div>
+                <div className="justify-self-center">
+                  <a href={url} target='_blank'>
+                    <MagicButton
+                      title='Live Site'
+                      icon={<FaArrowUpRightFromSquare />}
+                      position='right'
+                      otherClasses="w-full lg:w-60 transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+                    />
+                  </a>
+                </div>
+              </div>
               <div className="py-10">{card.content}</div>
             </motion.div>
           </div>
