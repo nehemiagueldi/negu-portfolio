@@ -7,6 +7,7 @@ import AboutMe from '@/components/AboutMe';
 import Education from '@/components/Education';
 import ProjectsAbout from '@/components/ProjectsAbout';
 import Contact from '@/components/Contact';
+import TechStack from '@/components/TechStack';
 
 export default function Aboutme() {
   const navItemsAboutme = [
@@ -38,6 +39,7 @@ export default function Aboutme() {
         <AboutMe/>
         <Education/>
         <ProjectsAbout/>
+        <TechStack/>
         <Contact/>
       </div>
     </div>
