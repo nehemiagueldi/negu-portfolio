@@ -1,15 +1,5 @@
 "use client";
 import React from 'react'
-import {
-  IconAdjustmentsBolt,
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
-} from "@tabler/icons-react";
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 
@@ -18,90 +8,90 @@ const TechStack = () => {
     {
       title: "HTML",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
+        "A markup language used to structure content on the web.",
       icon: "/html.svg",
     },
     {
       title: "CSS",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
+        "A styling language that designs the visual presentation of web pages.",
       icon: "/css.svg",
     },
     {
       title: "JavaScript",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
+        "A programming language that adds interactivity to websites.",
       icon: "/javascript.svg",
     },
     {
       title: "TypeScript",
-      description: "We just cannot be taken down by anyone.",
+      description: "A typed superset of JavaScript that provides better error-checking and structure.",
       icon: "/typescript.svg",
     },
     {
       title: "Angular",
-      description: "You can simply share passwords instead of buying new seats",
+      description: "A powerful framework for building dynamic single-page applications.",
       icon: "/angular.svg",
     },
     {
       title: "React",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
+        "A popular JavaScript library for building user interfaces efficiently with reusable components.",
       icon: "/re.svg",
     },
     {
       title: "NextJS",
       description:
-        "If you donot like EveryAI, we will convince you to like us.",
+        "A React framework for building fast, SEO-friendly web applications with server-side rendering.",
       icon: "/nextjs.svg",
     },
     {
       title: "Laravel",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      description: "A PHP framework designed to make backend development simpler and more efficient.",
       icon: "/laravel.svg"
     },
     {
       title: "NodeJS",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
+        "A runtime that allows JavaScript to be used for server-side programming.",
       icon: "/node-js.svg",
     },
     {
       title: "Python",
       description:
-        "If you donot like EveryAI, we will convince you to like us.",
+        "A versatile programming language widely used for web development, data analysis, and AI.",
       icon: "/pypi.svg",
     },
     {
       title: "MySQL",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      description: "A reliable relational database management system for storing and managing data.",
       icon: "/mysql.svg"
     },
     {
       title: "PHP",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      description: "A backend scripting language commonly used for web server development.",
       icon: "/php.svg"
     },
     {
       title: "VueJS",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
+        "A progressive JavaScript framework for building user interfaces with ease.",
       icon: "/vue.svg",
     },
     {
       title: "TailwindCSS",
       description:
-        "If you donot like EveryAI, we will convince you to like us.",
+        "A utility-first CSS framework that simplifies styling with predefined classes.",
       icon: "/tailwindcss.svg",
     },
     {
       title: "Bootstrap",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      description: "A CSS framework with ready-to-use components for fast and responsive design.",
       icon: "/bootstrap.svg"
     },
     {
       title: "ChakraUI",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      description: "A React component library focused on accessibility and ease of use for building UI.",
       icon: "/chakraui.svg"
     },
   ];
