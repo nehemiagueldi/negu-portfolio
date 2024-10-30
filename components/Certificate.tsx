@@ -4,7 +4,7 @@ import { Tabs } from './ui/Tabs'
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Beams, Lens, Rays } from './ui/Lens';
-import { bangkitCertificateData } from '@/data';
+import { bangkitCertificateData, courseraCertificateData } from '@/data';
 
 const Certificate = () => {
   const tabs = [
@@ -36,7 +36,7 @@ const Certificate = () => {
       title: "Dicoding",
       value: "dicoding",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900 overflow-y-auto">
           <p>Dicoding</p>
           {/* <DummyContent /> */}
         </div>
@@ -46,9 +46,18 @@ const Certificate = () => {
       title: "Coursera",
       value: "coursera",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900 overflow-y-auto">
           <p>Coursera</p>
-          {/* <DummyContent /> */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {courseraCertificateData.map((certificate, index) => (
+              <CardContent
+                key={index}
+                imageSrc={certificate.imageSrc}
+                title={certificate.title}
+                description={certificate.description}
+              />
+            ))}
+          </div>
         </div>
       ),
     },
@@ -56,7 +65,7 @@ const Certificate = () => {
       title: "Sololearn",
       value: "sololearn",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900 overflow-y-auto">
           <p>Sololearn</p>
           {/* <DummyContent /> */}
         </div>
@@ -66,7 +75,7 @@ const Certificate = () => {
       title: "Random",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900 overflow-y-auto">
           <p>Random</p>
           {/* <DummyContent /> */}
         </div>
