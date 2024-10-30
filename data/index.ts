@@ -247,3 +247,26 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/nehemiagueldi/"
   },
 ];
+
+export const bangkitCertificateData = [
+  {
+    imageSrc: "/about/certificate/bangkitacademy/certificateofcompletion.png",
+    title: "Certificate of Completion",
+    description: "This certificate recognizes my active participation during Bangkit Academy.",
+  },
+  {
+    imageSrc: "/about/certificate/bangkitacademy/certificateofachievement.png",
+    title: "Certificate of Achievement",
+    description: "This certificate declares HireHub as one of the Top 20 Product-Based Capstone Projects.",
+  },
+  {
+    imageSrc: "/about/certificate/bangkitacademy/hirehubtop3.jpg",
+    title: "Top 3 Teams Bangkit 2023 Batch 1",
+    description: "HireHub is selected as one of the Top 3 Teams with the Best Performance out of 20 Teams that participate in the incubation program.",
+  },
+  {
+    imageSrc: "/about/certificate/bangkitacademy/HireHub.png",
+    title: "Certificate of 'The Best Performer' Team",
+    description: "This certificate declares HireHub awarded with 'The Best Performer' Team.",
+  },
+];

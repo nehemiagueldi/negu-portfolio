@@ -4,7 +4,7 @@ import { Tabs } from './ui/Tabs'
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Beams, Lens, Rays } from './ui/Lens';
-import { cn } from '@/lib/utils';
+import { bangkitCertificateData } from '@/data';
 
 const Certificate = () => {
   const tabs = [
@@ -14,31 +14,17 @@ const Certificate = () => {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900 overflow-y-auto">
           <p>Bangkit Academy</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <DummyContent
-                imageSrc="/about/certificate/bangkitacademy/certificateofcompletion.png" 
-                title="Certificate of Completion" 
-                description="This certificates recognize my active participation during Bangkit Academy."
-            />
-            <DummyContent
-                imageSrc="/about/certificate/bangkitacademy/certificateofachievement.png" 
-                title="Certificate of Achievement" 
-                description="This certificate declares HireHub as one of the Top 20 Product-Based Capstone Projects."
-            />
+          <div className="grid grid-cols-1 grid-rows-none md:grid-cols-2 md:grid-rows-2 gap-5">
+            {bangkitCertificateData.map((certificate, index) => (
+              <CardContent
+                key={index}
+                imageSrc={certificate.imageSrc}
+                title={certificate.title}
+                description={certificate.description}
+              />
+            ))}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <DummyContent
-              imageSrc="/about/certificate/bangkitacademy/hirehubtop3.jpg" 
-              title="Top 3 Teams Bangkit 2023 Batch 1" 
-              description="HireHub is selected as one of the Top 3 Teams with the Best Performance out of 20 Teams that participate in the incubation program."
-            />
-            <DummyContent
-              imageSrc="/about/certificate/bangkitacademy/HireHub.png" 
-              title="Certificate of 'The Best Performer' Team" 
-              description="This certificate declares HireHub awarded with 'The Best Performer' Team."
-            />
-          </div>
-          <DummyContent
+          <CardContent
             imageSrc="/about/certificate/bangkitacademy/hirehubrewind.png" 
             title="HireHub Rewind" 
             description="This rewind indicate HireHub&apos;s rating during participate in the incubation program."
@@ -50,7 +36,7 @@ const Certificate = () => {
       title: "Dicoding",
       value: "dicoding",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
           <p>Dicoding</p>
           {/* <DummyContent /> */}
         </div>
@@ -60,7 +46,7 @@ const Certificate = () => {
       title: "Coursera",
       value: "coursera",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
           <p>Coursera</p>
           {/* <DummyContent /> */}
         </div>
@@ -70,7 +56,7 @@ const Certificate = () => {
       title: "Sololearn",
       value: "sololearn",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
           <p>Sololearn</p>
           {/* <DummyContent /> */}
         </div>
@@ -80,7 +66,7 @@ const Certificate = () => {
       title: "Random",
       value: "random",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-indigo-700 to-violet-900">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900">
           <p>Random</p>
           {/* <DummyContent /> */}
         </div>
@@ -106,7 +92,7 @@ type DummyContentProps = {
   description: string;
 };
 
-const DummyContent: React.FC<DummyContentProps> = ({ imageSrc, title, description }) => {
+const CardContent: React.FC<DummyContentProps> = ({ imageSrc, title, description }) => {
   const [hovering, setHovering] = useState(false);
 
   return (
@@ -120,7 +106,7 @@ const DummyContent: React.FC<DummyContentProps> = ({ imageSrc, title, descriptio
             alt="image"
             width={500}
             height={500}
-            className="rounded-2xl"
+            className="rounded-2xl cursor-pointer"
           />
         </Lens>
         <motion.div
