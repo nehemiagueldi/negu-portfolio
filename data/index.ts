@@ -271,15 +271,91 @@ export const bangkitCertificateData = [
   },
 ];
 
+export const dicodingCertificateData = [
+  {
+    imageSrc: "/about/certificate/dicoding/certificateofcompletion.png",
+    title: "Certificate of Completion",
+    description: "This certificate recognizes my active participation during Bangkit Academy.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/certificateofachievement.png",
+    title: "Certificate of Achievement",
+    description: "This certificate declares HireHub as one of the Top 20 Product-Based Capstone Projects.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/hirehubtop3.jpg",
+    title: "Top 3 Teams Bangkit 2023 Batch 1",
+    description: "HireHub is selected as one of the Top 3 Teams with the Best Performance out of 20 Teams that participate in the incubation program.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/HireHub.png",
+    title: "Certificate of 'The Best Performer' Team",
+    description: "This certificate declares HireHub awarded with 'The Best Performer' Team.",
+  },
+];
+
 export const courseraCertificateData = [
+  {
+    imageSrc: "/about/certificate/coursera/systemadmin.jpeg",
+    title: "System Administration and IT Infrastructure Services",
+    description: "This course will transition you from working on a single computer to an entire fleet. Learn about the infrastructure services that keep all organizations, big and small, up and running.",
+  }, 
   {
     imageSrc: "/about/certificate/coursera/bitsbytes.jpeg",
     title: "The Bits and Bytes of Computer Networking",
     description: "This course is cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting.",
   },
+];
+
+export const sololearnCertificateData = [
   {
-    imageSrc: "/about/certificate/coursera/systemadmin.jpeg",
-    title: "System Administration and IT Infrastructure Services",
-    description: "This course will transition you from working on a single computer to an entire fleet. Learn about the infrastructure services that keep all organizations, big and small, up and running.",
+    imageSrc: "/about/certificate/sololearn/sertifikat-Introduction-to-SQL.png",
+    title: "Introduction to SQL",
+    description: "Learn how to use the SQL standardized database language to access and manipulate data stored in databases.",
+  },
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-Introduction-to-C.png",
+    title: "Introduction to C",
+    description: "Learn basic concepts, data types, arrays, pointers, conditional statements, loops, functions, strings, structures, unions, and much more.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-Introduction-to-Python.png",
+    title: "Introduction to Python",
+    description: "Cover the basic concepts of Python, as well as build real-life projects and solve different coding challenges.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-SQL.png",
+    title: "SQL",
+    description: "Covers an array of SQL-related topics, such as retrieving, updating and filtering data, functions and subqueries, creating & updating tables.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-C.png",
+    title: "C",
+    description: "Covers basic concepts, data types, arrays, pointers, conditional statements, loops, functions, strings, structures, unions, and much more.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-PHP.jpg",
+    title: "PHP",
+    description: "Create dynamic web pages, develop websites, and generate dynamic content.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-CSS.jpg",
+    title: "CSS",
+    description: "This course will teach you how to control the style & layout of websites.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-HTML.jpg",
+    title: "HTML",
+    description: "A series of hands-on exercises and practice while writing real HTML code.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-JavaScript.png",
+    title: "JavaScript",
+    description: "Learn all the basic features of JavaScript, including making your website more interactive, changing website content, validating forms, and so much more.",
+  }, 
+  {
+    imageSrc: "/about/certificate/sololearn/sertifikat-Python.png",
+    title: "Python for Beginners",
+    description: "This course cover the basic concepts of Python, as well as build real-life projects and solve different coding challenges.",
   }, 
 ];
