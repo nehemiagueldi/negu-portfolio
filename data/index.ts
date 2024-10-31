@@ -273,24 +273,64 @@ export const bangkitCertificateData = [
 
 export const dicodingCertificateData = [
   {
-    imageSrc: "/about/certificate/dicoding/certificateofcompletion.png",
-    title: "Certificate of Completion",
-    description: "This certificate recognizes my active participation during Bangkit Academy.",
+    imageSrc: "/about/certificate/dicoding/Belajar-Strategi-Pengembangan-Diri.jpg",
+    title: "Belajar Strategi Pengembangan Diri",
+    description: "Implementing various self-development strategies through mindset management (growth mindset), time management, and adaptation processes (adaptability) in personal and professional life.",
   },
   {
-    imageSrc: "/about/certificate/dicoding/certificateofachievement.png",
-    title: "Certificate of Achievement",
-    description: "This certificate declares HireHub as one of the Top 20 Product-Based Capstone Projects.",
+    imageSrc: "/about/certificate/dicoding/Belajar-Dasar-AI.jpg",
+    title: "Belajar Dasar AI",
+    description: "This class is intended for beginners who want to start a career in the world of AI. Expected able to examine various basic concepts in AI and their applications well.",
   },
   {
-    imageSrc: "/about/certificate/dicoding/hirehubtop3.jpg",
-    title: "Top 3 Teams Bangkit 2023 Batch 1",
-    description: "HireHub is selected as one of the Top 3 Teams with the Best Performance out of 20 Teams that participate in the incubation program.",
+    imageSrc: "/about/certificate/dicoding/Belajar-Dasar-Data-Science.jpg",
+    title: "Belajar Dasar Data Science",
+    description: "Learn the basic concepts of data science. Expected able to recognize, understand, and examine the basics of data science well.",
   },
   {
-    imageSrc: "/about/certificate/dicoding/HireHub.png",
-    title: "Certificate of 'The Best Performer' Team",
-    description: "This certificate declares HireHub awarded with 'The Best Performer' Team.",
+    imageSrc: "/about/certificate/dicoding/Belajar-Dasar-SQL.jpg",
+    title: "Belajar Dasar Structured Query Language (SQL)",
+    description: "Expected to master various basic queries that are often used in managing data using structured query language (SQL).",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Belajar-Dasar-Manajemen-Proyek.jpg",
+    title: "Belajar Dasar Manajemen Proyek",
+    description: "This class thoroughly discusses the basics of project management as a foundation for becoming a project manager. Develop skills and insights related to project management.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Menjadi-Google-Cloud.jpg",
+    title: "Menjadi Google Cloud Engineer",
+    description: "The class is intended for students who want to learn cloud computing, specifically Google Cloud, with reference to industry standards.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Belajar-Dasar-Pemrograman-JavaScript.jpg",
+    title: "Belajar Dasar Pemrograman JavaScript",
+    description: "This class is intended for individuals who want to step into becoming a Web Developer/Back-end developer using Node.js technology using industry competency standards validated by AWS.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Belajar-Membuat-Aplikasi-Back-End.jpg",
+    title: "Belajar Membuat Aplikasi Back-End untuk Pemula dengan Google Cloud",
+    description: "This class is intended for individuals who want to take the step of becoming a Back-End Developer with Google's international competency standards.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Belajar-Dasar-Pemrograman-Web.jpg",
+    title: "Belajar Dasar Pemrograman Web",
+    description: "This class thoroughly discusses the basics of HTML and CSS as the three foundations of website creation. Develop website development capabilities to a more advanced level.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Dasar-Git-GitHub.jpg",
+    title: "Dasar Git dengan GitHub",
+    description: "This class is intended for developers who want to learn how to manage code or data using Git with GitHub so they can collaborate with other developers according to industry standards.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Memulai-Dasar-Pemrograman.jpg",
+    title: "Memulai Dasar Pemrograman untuk Menjadi Pengembang Software",
+    description: "Able to modify software applications using flowchart guidance and programming with basic HTML, CSS, and JavaScript technologies appropriately according to application specification and functionality requirements.",
+  },
+  {
+    imageSrc: "/about/certificate/dicoding/Pengenalan-Logika-Pemrograman.jpg",
+    title: "Pengenalan ke Logika Pemrograman (Programming Logic 101)",
+    description: "The class is intended for beginners who want to start learning logic in the field of programming. Understand basic programming logic and apply it in solving problems in the field of Software Developer work.",
   },
 ];
 
