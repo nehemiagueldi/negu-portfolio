@@ -67,7 +67,7 @@ const Certificate = () => {
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-tl from-indigo-700 to-violet-900 overflow-y-auto">
           <p>Sololearn</p>
-          <div className="grid grid-cols-1 grid-rows-none md:grid-cols-2 md:grid-rows-5 gap-5">
+          <div className="grid grid-cols-1 grid-rows-none md:grid-cols-2 gap-5">
             {sololearnCertificateData.map((certificate, index) => (
               <CardContent
                 key={index}
