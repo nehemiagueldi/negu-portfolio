@@ -14,7 +14,7 @@ export default function Aboutme() {
   const navItemsAboutme = [
     { 
       name: "Projects", 
-      link: "/#projects",
+      link: "#projects",
       icon: <GiSpellBook className="h-4 w-4" />,
     },
     { 

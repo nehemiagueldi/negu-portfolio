@@ -399,3 +399,26 @@ export const sololearnCertificateData = [
     description: "This course cover the basic concepts of Python, as well as build real-life projects and solve different coding challenges.",
   }, 
 ];
+
+export const randomCertificateData = [
+  {
+    imageSrc: "/about/certificate/random/JuaraGCP.png",
+    title: "JuaraGCP S9 & S10",
+    description: "JuaraGCP is an online self-study Program that provides developers with access to hands-on Google Cloud Labs.",
+  }, 
+  {
+    imageSrc: "/about/certificate/random/JUARA_1_NehemiaGueldi.png",
+    title: "Valorant Internal ULYMPIC 2022",
+    description: "Internal Valorant Competition organized by ULYMPIC UMN Festival 2022.",
+  }, 
+  {
+    imageSrc: "/about/certificate/random/Sertifikat-TVONAIR.png",
+    title: "TVONAIR 8.0 IT & Web Division Committee",
+    description: "",
+  },
+  {
+    imageSrc: "/about/certificate/random/Sertifikat-Ufest.jpg",
+    title: "Ufest E-sports Division Committee 2021",
+    description: "",
+  },
+];
