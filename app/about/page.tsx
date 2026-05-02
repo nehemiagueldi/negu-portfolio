@@ -13,24 +13,24 @@ import Certificate from '@/components/Certificate';
 export default function Aboutme() {
   const navItemsAboutme = [
     { 
+      name: "Home", 
+      link: "/",
+      icon: <AiFillAliwangwang className="h-4 w-4" />,
+    },
+    { 
       name: "Projects", 
       link: "#projects",
       icon: <GiSpellBook className="h-4 w-4" />,
     },
     { 
-      name: "Testimonials", 
-      link: "/#testimonials",
-      icon: <AiFillAliwangwang className="h-4 w-4" />,
-    },
-    { 
-      name: "Experience", 
-      link: "/#experience",
-      icon: <GiBurningBook className="h-4 w-4" />,
-    },
-    { 
       name: "Contact", 
       link: "#contact",
       icon: <GiStabbedNote className="h-4 w-4" />,
+    },
+    { 
+      name: "Timeline", 
+      link: "/timeline",
+      icon: <GiBurningBook className="h-4 w-4" />,
     },
   ];
   return (

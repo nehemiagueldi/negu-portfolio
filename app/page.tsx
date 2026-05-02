@@ -8,14 +8,14 @@ import Approach from "@/components/Approach";
 import Quote from "@/components/Quote";
 import Footer from "@/components/Footer";
 import { AiFillAliwangwang } from "react-icons/ai";
-import { GiSpellBook, GiStabbedNote } from "react-icons/gi";
+import { GiSpellBook, GiStabbedNote, GiBurningBook } from "react-icons/gi";
 import { FaUserAstronaut } from "react-icons/fa6";
 
 export default function Home() {
   const navItemsHome = [
     { 
       name: "About", 
-      link: "#about",
+      link: "/about",
       icon: <FaUserAstronaut className="h-4 w-4" />,
     },
     { 
@@ -24,15 +24,20 @@ export default function Home() {
       icon: <GiSpellBook className="h-4 w-4" />,
     },
     { 
-      name: "Testimonials", 
-      link: "#testimonials",
-      icon: <AiFillAliwangwang className="h-4 w-4" />,
-    },
-    { 
       name: "Contact", 
       link: "#contact",
       icon: <GiStabbedNote className="h-4 w-4" />,
     },
+    { 
+      name: "Timeline", 
+      link: "/timeline",
+      icon: <GiBurningBook className="h-4 w-4" />,
+    },
+    // { 
+    //   name: "Testimonials", 
+    //   link: "#testimonials",
+    //   icon: <AiFillAliwangwang className="h-4 w-4" />,
+    // },
   ];
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">

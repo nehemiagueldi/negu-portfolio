@@ -8,24 +8,24 @@ import { FaUserAstronaut } from "react-icons/fa6";
 export default function Timeline() {
   const navItemsTimeline = [
     { 
-      name: "About", 
-      link: "/#about",
-      icon: <FaUserAstronaut className="h-4 w-4" />,
-    },
-    { 
-      name: "Projects", 
-      link: "/#projects",
-      icon: <GiSpellBook className="h-4 w-4" />,
-    },
-    { 
-      name: "Testimonials", 
-      link: "/#testimonials",
+      name: "Home", 
+      link: "/",
       icon: <AiFillAliwangwang className="h-4 w-4" />,
     },
     { 
+      name: "Projects", 
+      link: "/about#projects",
+      icon: <GiSpellBook className="h-4 w-4" />,
+    },
+    { 
       name: "Contact", 
-      link: "/#contact",
+      link: "/about#contact",
       icon: <GiStabbedNote className="h-4 w-4" />,
+    },
+    { 
+      name: "About", 
+      link: "/about",
+      icon: <FaUserAstronaut className="h-4 w-4" />,
     },
   ];
   return (

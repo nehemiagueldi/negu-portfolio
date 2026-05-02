@@ -35,7 +35,7 @@ const Experience = () => {
             title='See Timeline'
             icon={<FaHistory />}
             position='right'
-            otherClasses="w-full md:w-60 md:mt-10 transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
+            otherClasses="w-full md:w-60 md:mt-10 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
           />
         </a>
       </div>

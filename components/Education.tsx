@@ -19,7 +19,7 @@ const Education = () => {
         day: 'numeric',
         month: 'long',
         year: 'numeric',
-      }).replace(/(\w+day)/, '$1,'));
+      }).replace(/(\w+day)/, '$1'));
     };
 
     updateDateTime();
