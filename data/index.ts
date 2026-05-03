@@ -127,42 +127,48 @@ export const testimonials = [
       "I worked with Nehemia on HireHub product-based capstone project for Bangkit 2023 capstone project. Nehemia worked on the Cloud Computing team, and I was his project manager and worked with him on the connection between ML features and the app backend. During the capstone, Nehemia showed grit, perseverance, and dedication to finish the capstone on time. He also had the skill to tackle problems arising in the backend and its connection with ML features. In conclusion, I am glad to have him on my team and looking forward to the next opportunity.",
     name: "Reynard Matthew Yaputra",
     title: "AI Developer @ K-Style Hub Inc. Indonesia",
-    profile: "/testimonials/reynard.jpeg"
+    profile: "/testimonials/reynard.jpeg",
+    linkedin: "https://www.linkedin.com/in/reynardmy"
   },
   {
     quote:
       "I collaborated with Nehemia on the HireHub Capstone Project at Bangkit Academy 2023. He was our Cloud Computing Developer and handled the Back End tasks effectively. I often discussed as Mobile Developers to ensure proper data communication. Nehemia has strong knowledge and skills, and he's always available to help with any issues or blockers in our project. He also creates a pleasant atmosphere during meetings and communicates well. Nehemia's outstanding personality, combined with his remarkable skills, made our collaboration a truly rewarding experience. I eagerly look forward to future opportunities to work with him again.",
     name: "Nadya Angelia",
     title: "Bangkit Alumni 2023",
-    profile: "/testimonials/nadya.png"
+    profile: "/testimonials/nadya.png",
+    linkedin: "https://www.linkedin.com/in/nadyangeliaa"
   },
   {
     quote:
       "I am writing to recommend Nehemia, a talented individual whom I have had the pleasure of mentoring at Bangkit Academy capstone project. Nehemia has consistently demonstrated skills and passion for cloud computing, specifically focusing on backend services for his team's infrastructure. Nehemia's contributions to his team's infrastructure have been outstanding. His ability to collaborate effectively with teams has proven invaluable, as he seamlessly integrates his work with other components of the system. Nehemia actively seeks feedback and incorporates it into his work, making him a valuable team player who is always striving for improvement. In conclusion, I wholeheartedly recommend Nehemia for any role related to cloud computing.",
     name: "Henrico Ferdian",
-    title: "Software Engineer @ Traveloka",
-    profile: "/testimonials/kakhenrico.png"
+    title: "Software Engineer @ GoTo Financial",
+    profile: "/testimonials/kakhenrico.png",
+    linkedin: "https://www.linkedin.com/in/ricoferdian"
   },
   {
     quote:
       "I had the pleasure of working with Nehemia on a capstone project based on products at Bangkit Academy 2023. Nehemia, a member of the cloud computing team, demonstrated outstanding abilities, dedication, and expertise in cloud technologies, which played a key role in the success of our project. His remarkable knowledge of cloud computing principles, along with his ability to design, implement, and manage cloud infrastructure, was remarkable, and he also had a solid grasp of cloud security and scalability, both of which were crucial to our project's success. Last but not least, Nehemia demonstrated excellent communication.",
     name: "Hanny Putri Gayatri",
     title: "Bangkit Alumni 2023",
-    profile: "/testimonials/hanny.png"
+    profile: "/testimonials/hanny.png",
+    linkedin: "https://www.linkedin.com/in/hanny-putri-gayatri-470870219"
   },
   {
     quote:
       "Working alongside Nehemia in web programming and data analytics has been a rewarding experience. He consistently demonstrated a cooperative spirit and made significant contributions to the team’s success. His dedication to our projects is truly impressive, and the effort he puts into every task is remarkable. Nehemia has a unique ability to dive deep into the intricacies of web development and data analysis, bringing valuable insights and innovative solutions to our challenges. Nehemia quickly acclimated to our team dynamics, which greatly facilitated our collaboration.",
     name: "Raphael Gregorius Hakim",
     title: "Apple Developer Academy Graduate",
-    profile: "/testimonials/raphael.jpeg"
+    profile: "/testimonials/raphael.jpeg",
+    linkedin: "https://www.linkedin.com/in/raphaelgregorius"
   },
   {
     quote:
       "During my exciting experience in the HireHub capstone project for Bangkit 2023, I had the pleasure of collaborating with Nehemia, an outstanding member of our Cloud Computing team. Our goal was to create seamless connectivity between the backend and frontend, focusing on a remarkable chat feature. Nehemia consistently showed exceptional determination and resilience, stepping up to propose solutions whenever frontend challenges arose. His strong communication skills were crucial to our success. Working with Nehemia was truly memorable, and I look forward to future collaborations with him.",
     name: "Andelle Gianzra Basae",
     title: "Bangkit Alumni 2023",
-    profile: "/testimonials/gian.jpeg"
+    profile: "/testimonials/gian.jpeg",
+    linkedin: "https://www.linkedin.com/in/gianzra"
   },
 ];
 

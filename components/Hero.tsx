@@ -4,15 +4,17 @@ import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { FaUserLarge } from "react-icons/fa6";
+import { Meteors } from "./ui/Meteors";
 
 const Hero = () => {
   return (
     <section id="about">
       <div className="pb-20 pt-20 md:pt-36">
         <div>
-          <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" />
-          <Spotlight className="top-10 left-full h-[80vh] w-[50vw]" fill="purple" />
-          <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
+          {/* black, silver, gray, white, maroon, red, purple, fuchsia, green, lime, olive, yellow, navy, blue, teal, aqua, orange, pink, brown, cyan, magenta, rebeccapurple, Tomato, DodgerBlue, MediumSeaGreen, Gray, SlateBlue, Violet, LightGray */}
+          <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="fuchsia" /> 
+          <Spotlight className="top-10 left-full h-[60vh] md:h-[100vh] lg:h-[150vh] w-[60vw]" fill="green" />
+          <Spotlight className="top-28 left-80 h-[80vh] w-[60vw] lg:w-[50vw]" fill="aqua" />
         </div>
 
         <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
@@ -41,10 +43,11 @@ const Hero = () => {
                 icon={<FaUserLarge />}
                 position='right'
                 otherClasses="w-full md:w-60 md:mt-10 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-              />
+              />  
             </a>
           </div>
         </div>
+        <Meteors number={50} />
       </div>
     </section>
   );

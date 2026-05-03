@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { LinkPreview } from "./LinkPreview";
+import { Meteors } from "./Meteors";
 
 let interval: any;
 
@@ -11,6 +12,8 @@ type Card = {
   name: string;
   designation: string;
   content: React.ReactNode;
+  link: string;
+  img: string;
 };
 
 export const CardStack = ({
@@ -67,22 +70,11 @@ export const CardStack = ({
               <p className="text-neutral-500 font-medium dark:text-white">
                 {card.name}
               </p>
-              {card.designation === "My Hero Academia" &&
-                <p className="text-neutral-400 font-normal dark:text-neutral-200">
-                  <LinkPreview url="https://myheroacademia.fandom.com/wiki/My_Hero_Academia_Wiki" imageSrc="/anime/mha.jpg"
-          isStatic className="underline decoration-neutral-300">
-                    {card.designation}
-                  </LinkPreview>
-                </p>
-              }
-              {card.designation === "Kaiju No. 8" &&
-                <p className="text-neutral-400 font-normal dark:text-neutral-200">
-                  <LinkPreview url="https://kaiju-no-8.fandom.com/wiki/Kaiju_No_8_Wiki" imageSrc="/anime/kju.jpeg"
-          isStatic className="underline decoration-neutral-300">
-                    {card.designation}
-                  </LinkPreview>
-                </p>
-              }
+              <p className="text-neutral-400 font-normal dark:text-neutral-200">
+                <LinkPreview url={card.link} imageSrc={card.img} isStatic className="underline hover:no-underline text-whitetransition opacity-100 hover:opacity-60 duration-300">
+                  {card.designation}
+                </LinkPreview>
+              </p>
             </div>
           </motion.div>
         );

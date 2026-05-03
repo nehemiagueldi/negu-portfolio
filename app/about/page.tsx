@@ -3,12 +3,12 @@ import { FloatingNav } from '@/components/ui/FloatingNav'
 import React from 'react'
 import { AiFillAliwangwang } from "react-icons/ai";
 import { GiStabbedNote, GiBurningBook, GiSpellBook } from "react-icons/gi";
-import AboutMe from '@/components/AboutMe';
-import Education from '@/components/Education';
-import ProjectsAbout from '@/components/ProjectsAbout';
-import Contact from '@/components/Contact';
-import TechStack from '@/components/TechStack';
-import Certificate from '@/components/Certificate';
+import AboutMe from '@/components/about/AboutMe';
+import Education from '@/components/about/Education';
+import ProjectsAbout from '@/components/about/ProjectsAbout';
+import Contact from '@/components/about/Contact';
+import TechStack from '@/components/about/TechStack';
+import Certificate from '@/components/about/Certificate';
 
 export default function Aboutme() {
   const navItemsAboutme = [

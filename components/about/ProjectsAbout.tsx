@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Carousel } from './ui/AppleCardsCarousel'
+import { Card, Carousel } from '../ui/AppleCardsCarousel'
 import Image from 'next/image';
 
 const ProjectsAbout = () => {

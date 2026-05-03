@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from 'react'
-import { Tabs } from './ui/Tabs'
+import { Tabs } from '../ui/Tabs'
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Beams, Lens, Rays } from './ui/Lens';
+import { Beams, Lens, Rays } from '../ui/Lens';
 import { bangkitCertificateData, dicodingCertificateData, courseraCertificateData, sololearnCertificateData, randomCertificateData } from '@/data';
 
 const Certificate = () => {

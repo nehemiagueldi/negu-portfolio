@@ -40,9 +40,9 @@ const Footer = () => {
           {socialMedia.map((info) => (
             <a key={info.id} href={info.link} target="_blank">
               <div
-                className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 transition ease-in-out hover:scale-110 mt-5 md:mt-0"
+                className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 transition opacity-100 hover:opacity-60 mt-5 md:mt-0"
               >
-                  <img src={info.img} alt="icons" width={20} height={20} />
+                  <img src={info.img} alt="icons" width={20} height={20} className = "transition grayscale duration-300 hover:grayscale-0" />
               </div>
             </a>
           ))}

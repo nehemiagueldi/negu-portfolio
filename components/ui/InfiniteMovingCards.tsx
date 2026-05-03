@@ -15,6 +15,7 @@ export const InfiniteMovingCards = ({
     name: string;
     title: string;
     profile: string;
+    linkedin: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -111,7 +112,9 @@ export const InfiniteMovingCards = ({
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className=" text-xl leading-[1.6] text-white font-bold">
+                      <a href={item.linkedin} className="underline hover:no-underline decoration-neutral-300" target="_blank">
                       {item.name}
+                      </a>
                     </span>
                     <span className=" text-sm leading-[1.6] text-white-200 font-normal">
                       {item.title}
