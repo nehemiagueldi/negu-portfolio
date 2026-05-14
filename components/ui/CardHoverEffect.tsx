@@ -74,11 +74,11 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-gradient-to-tr from-slate-800 to-black-100 border border-transparent dark:border-white/[0.2] group-hover:border-slate-300 transition duration-200 relative z-20",
+        "rounded-2xl h-full w-full p-4 overflow-hidden bg-gradient-to-tr from-slate-800 to-black-100 border border-transparent dark:border-white/[0.2] group-hover:border-slate-300 transition duration-300 relative z-20",
         className
       )}
     >
-      <div className="absolute right-6 top-1/2 transform -translate-y-1/2 opacity-30 group-hover:opacity-80 transition duration-200 z-10">
+      <div className="absolute right-6 top-1/2 transform -translate-y-1/2 opacity-30 group-hover:opacity-80 transition duration-300 z-10">
         <Image
           src={icon}
           alt="Background Icon"

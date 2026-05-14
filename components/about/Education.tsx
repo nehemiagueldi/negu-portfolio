@@ -53,7 +53,7 @@ const Education = () => {
               </div>
               <div>
                 <a href="#">
-                  <MagicButton title="Unpublished Paper" icon={<FaNewspaper />} position="right" otherClasses="w-full md:w-60 lg:mt-4 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
+                  <MagicButton title="Unpublished Paper" icon={<FaNewspaper />} position="right" otherClasses="w-full md:w-60 lg:mt-4 transition duration-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
                 </a>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Education = () => {
                 {/* Multimedia Nusantara University */}
               </p>
               <a href="/timeline">
-                <MagicButton title="Timeline" icon={<FaHistory />} position="right" otherClasses="w-full md:w-60 mt-4 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
+                <MagicButton title="Timeline" icon={<FaHistory />} position="right" otherClasses="w-full md:w-60 mt-4 transition duration-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
               </a>
             </div>
           </div>

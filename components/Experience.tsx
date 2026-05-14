@@ -1,24 +1,19 @@
-import React from 'react'
-import { Button } from './ui/MovingBorder'
-import { workExperience } from '@/data'
-import MagicButton from './ui/MagicButton'
+import React from "react";
+import { Button } from "./ui/MovingBorder";
+import { workExperience } from "@/data";
+import MagicButton from "./ui/MagicButton";
 import { FaHistory } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <div className="py-20" id='experience'>
+    <div className="py-20" id="experience">
       <h1 className="heading">
         My
         <span className="text-purple"> Work Experience</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
-          <Button
-            key={card.id}
-            borderRadius='1.75rem'
-            className="flex-1 text-white border-neutral-200 dark:border-slate-800"
-            duration={Math.floor(Math.random() * 12000) + 10000}
-          >
+          <Button key={card.id} borderRadius="1.75rem" className="flex-1 text-white border-neutral-200 dark:border-slate-800" duration={Math.floor(Math.random() * 12000) + 10000}>
             <div className="flex items-center lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img src={card.thumbnail} alt={card.thumbnail} className="lg:w-32 md:w-20 w-16" />
               <div className="lg:ms-5">
@@ -31,16 +26,11 @@ const Experience = () => {
       </div>
       <div className="flex items-center justify-center pt-8 md:pt-0">
         <a href="/timeline">
-          <MagicButton
-            title='Timeline'
-            icon={<FaHistory />}
-            position='right'
-            otherClasses="w-full md:w-60 md:mt-10 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-          />
+          <MagicButton title="Timeline" icon={<FaHistory />} position="right" otherClasses="w-full md:w-60 md:mt-10 transition duration-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

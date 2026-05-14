@@ -12,38 +12,30 @@ const Hero = () => {
       <div className="pb-20 pt-20 md:pt-36">
         <div>
           {/* black, silver, gray, white, maroon, red, purple, fuchsia, green, lime, olive, yellow, navy, blue, teal, aqua, orange, pink, brown, cyan, magenta, rebeccapurple, Tomato, DodgerBlue, MediumSeaGreen, Gray, SlateBlue, Violet, LightGray */}
-          <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="fuchsia" /> 
+          <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="fuchsia" />
           <Spotlight className="top-10 left-full h-[60vh] md:h-[100vh] lg:h-[150vh] w-[60vw]" fill="green" />
           <Spotlight className="top-28 left-80 h-[80vh] w-[60vw] lg:w-[50vw]" fill="aqua" />
         </div>
 
         <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
-          <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
+          <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
         </div>
 
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Dynamic Web Magic with Next.js</h2>
-            <TextGenerateEffect
-              className="text-center text-[40px] md:text-5xl lg:text-6xl"
-              words="Transforming Concepts into Seamless User Experiences"
-              duration={3} 
-              filter={false}
-            />
+            {/* <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Dynamic Web Magic with Next.js</h2> */}
+            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">Portfolio Website</h2>
+            {/* <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Transforming Concepts into Seamless User Experiences" duration={3} filter={false} /> */}
+            <TextGenerateEffect className="text-center text-[40px] md:text-5xl lg:text-6xl" words="Modern Interfaces, Meaningful Experiences" duration={3} filter={false} />
 
             <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi, I&apos;m Nehemia, a 
+              Hi, I&apos;m Nehemia, a
               <FlipWords words={flipWords} className="font-semibold" />
-              based in Indonesia.
+              {/* based in Indonesia. */}
             </div>
 
             <a href="/about">
-              <MagicButton
-                title='About Me'
-                icon={<FaUserLarge />}
-                position='right'
-                otherClasses="w-full md:w-60 md:mt-10 transition duration-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
-              />  
+              <MagicButton title="About Me" icon={<FaUserLarge />} position="right" otherClasses="w-full md:w-60 md:mt-10 transition duration-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
             </a>
           </div>
         </div>

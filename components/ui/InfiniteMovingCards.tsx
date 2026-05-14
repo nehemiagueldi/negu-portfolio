@@ -112,7 +112,7 @@ export const InfiniteMovingCards = ({
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className=" text-xl leading-[1.6] text-white font-bold">
-                      <a href={item.linkedin} className="underline hover:no-underline decoration-neutral-300" target="_blank">
+                      <a href={item.linkedin} className="underline hover:no-underline transition opacity-100 hover:opacity-60 duration-300 decoration-neutral-300" target="_blank">
                       {item.name}
                       </a>
                     </span>
