@@ -39,7 +39,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <Meteors number={50} />
+        {/* <Meteors number={50} /> */}
       </div>
     </section>
   );

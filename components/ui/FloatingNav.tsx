@@ -66,14 +66,14 @@ export const FloatingNav = ({
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
       >
-      <div className="flex items-center justify-center gap-2 rounded-full px-2 py-1.5 shadow-lg shadow-black/10 backdrop-blur-md">
+      <div className="flex items-center justify-center gap-2 rounded-full px-1 md:px-2 py-1.5 shadow-lg shadow-black/10 backdrop-blur-md">
         <div className="flex items-center gap-1">
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative dark:text-white rounded-full px-4 py-2 items-center flex space-x-1 text-neutral-600 hover:text-neutral-500 hover:bg-neutral-100  dark:hover:bg-white/10 transition duration-300"
+              "relative dark:text-white rounded-full px-2 md:px-4 py-2 items-center flex space-x-1 text-neutral-600 hover:text-neutral-500 hover:bg-neutral-100  dark:hover:bg-white/10 transition duration-300"
             )}
           >
             <span className="block">{navItem.icon}</span>
