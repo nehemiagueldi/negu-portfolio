@@ -9,7 +9,7 @@ import { Meteors } from "./ui/Meteors";
 const Hero = () => {
   return (
     <section id="about">
-      <div className="pb-20 pt-20 md:pt-36">
+      <div className="pb-20 pt-20">
         <div>
           {/* black, silver, gray, white, maroon, red, purple, fuchsia, green, lime, olive, yellow, navy, blue, teal, aqua, orange, pink, brown, cyan, magenta, rebeccapurple, Tomato, DodgerBlue, MediumSeaGreen, Gray, SlateBlue, Violet, LightGray */}
           <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="fuchsia" />

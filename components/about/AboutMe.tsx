@@ -53,7 +53,7 @@ const AboutMe = () => {
           </div>
           <div className="grid grid-cols-2 gap-10 relative justify-items-center my-10 z-10">
             <div>
-              <a href="/about/Resume_Nehemia_Gueldi.pdf" target="_blank">
+              <a href="/about/Resume Nehemia Gueldi.pdf" target="_blank">
                 <MagicButton title="Resume" icon={<GiScrollUnfurled />} position="right" otherClasses="w-full lg:w-60 transition duration-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
               </a>
             </div>
