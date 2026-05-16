@@ -45,7 +45,7 @@ const AboutMe = () => {
             </div>
             <p className="text-neutral-700 dark:text-neutral-200 text-sm md:text-base text-justify">
               As a Computer Science graduate from&nbsp;
-              <LinkPreview url="https://www.umn.ac.id/" className="hover:no-underline underline transition opacity-100 hover:opacity-60 duration-300 decoration-neutral-300 font-semibold">
+              <LinkPreview url="https://www.umn.ac.id" className="hover:no-underline underline transition opacity-100 hover:opacity-60 duration-300 decoration-neutral-300 font-semibold">
                 Multimedia Nusantara University
               </LinkPreview>
               &nbsp;and a Bangkit Academy Cloud Computing alum, I&apos;ve focused my career on mastering the dynamic world of technology. Through mentorship from Google, I&apos;ve sharpened both my technical expertise and my understanding of the larger tech landscape. Now, I&apos;m eager to expand my skill set in web development and cloud computing by exploring new opportunities, embracing cutting-edge technologies, and collaborating with professionals to tackle innovative challenges.
@@ -58,7 +58,7 @@ const AboutMe = () => {
               </a>
             </div>
             <div>
-              <a href="https://www.linkedin.com/in/nehemiagueldi/" target="_blank">
+              <a href="https://www.linkedin.com/in/nehemiagueldi" target="_blank">
                 <MagicButton title="LinkedIn" icon={<FaLinkedin />} position="right" otherClasses="w-full lg:w-60 transition duration-300 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50" />
               </a>
             </div>

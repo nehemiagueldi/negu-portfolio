@@ -30,12 +30,12 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <SplashCursor
-            DENSITY_DISSIPATION={3.5}
-            VELOCITY_DISSIPATION={2}
+            DENSITY_DISSIPATION={5}
+            VELOCITY_DISSIPATION={0.5}
             PRESSURE={0.1}
             CURL={3}
-            SPLAT_RADIUS={0.2}
-            SPLAT_FORCE={6000}
+            SPLAT_RADIUS={0.1}
+            SPLAT_FORCE={3500}
             COLOR_UPDATE_SPEED={10}
             SHADING
             RAINBOW_MODE  

@@ -3,6 +3,8 @@ import React from "react";
 import { Timeline } from "../ui/Timeline";
 import { Spotlight } from "../ui/Spotlight";
 import { LinkPreview } from "../ui/LinkPreview";
+import { AnimatedTooltip } from "../ui/AnimatedTooltip";
+import { amartekteam } from '@/data'
 
 const TimelineComp = () => {
   return (
@@ -21,6 +23,87 @@ const TimelineComp = () => {
 };
 
 const dataTimeline = [
+  {
+    title: "2025",
+    content: (
+      <div>
+        {/* EXPERIENCE 1 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          <LinkPreview url="https://www.muf.co.id" imageSrc="/timeline/muf/muf.png" isStatic className="hover:no-underline underline transition opacity-100 hover:opacity-60 duration-300 decoration-neutral-300">
+            PT Mandiri Utama Finance 
+          </LinkPreview>
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">Contract | 1 year 10 mos</p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">Indonesia | On-Site</p>
+        {/* POSITION 1 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">ICT Operation Programmer</p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">Jan 2025 - Nov 2026 | 1 year 10 mos</p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
+          Mandiri Utama Finance (MUF) is a financing company which is a subsidiary of one of the largest banks in Indonesia, namely Bank Mandiri Tbk. MUF's business orientation is to increase customer volume and significant financing, supported by integrated system automation. As a holding company, Bank Mandiri Tbk will support the business development of all subsidiaries as part of the Mandiri Group's integration strategy through an extensive business network with a large customer base to synergize all subsidiaries under the Mandiri Group.
+        </p>
+        {/* <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
+          Through this program, participants are prepared to become future IT consultants by working in a collaborative and diverse environment that encourages teamwork, adaptability, and continuous learning. Amartek believes that different backgrounds and perspectives create stronger teams and help achieve greater business goals, making the program a valuable stepping stone for graduates who want to grow, gain real industry exposure, and make an impact in the technology field.
+        </p> */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">Main responsibilities:</p>
+        <div className="mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Oversee and manage the organization’s data and information to ensure accessibility, accuracy, and security.</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Analyze and evaluate the information needs of the organization to ensure proper tools and systems are in place for efficient data usage and decision-making.</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Utilize tools for effective database management and maintenance, ensuring data is organized and accessible.</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Extract data from multiple sources, transform it into standardized formats, and load it into target systems to support reporting and analytics.</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Design and maintain data workflows and validation processes to ensure data consistency, integrity, and reliability across systems.</p>
+        </div>
+        <div className="grid grid-cols-2 gap-4">
+          <Image src="/timeline/muf/firstday.jpeg" alt="muf firstday" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          <Image src="/timeline/muf/birthday.jpeg" alt="muf birthday" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          <Image src="/timeline/muf/birthday2.jpeg" alt="muf birthday" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          <Image src="/timeline/muf/badmin.jpeg" alt="muf badmin" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "2024",
+    content: (
+      <div>
+        {/* EXPERIENCE 1 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
+          <LinkPreview url="https://www.amartek.id" imageSrc="/timeline/amartek/amartek.png" isStatic className="hover:no-underline underline transition opacity-100 hover:opacity-60 duration-300 decoration-neutral-300">
+            PT Bumi Amartha Teknologi Mandiri 
+          </LinkPreview>
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">Contract | 2 year</p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">Indonesia | Hybrid</p>
+        {/* POSITION 1 */}
+        <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">IT Graduate Development Program</p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">Nov 2024 - Nov 2026 | 2 year</p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
+          Amartek's IT Graduate Development Program attract graduates from top-tier universities who are enthusiastic about professional development and aspire to work in a quick-changing and challenging IT industry. The program provides opportunities to strengthen critical technical and professional skills while receiving direct mentoring from senior managers and experienced IT trainers. During the 2-year program, participants will also have the opportunity to be assigned to various clients, allowing them to gain hands-on experience, adapt to different working environments, and expand their professional network in the IT industry.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
+          Through this program, participants are prepared to become future IT consultants by working in a collaborative and diverse environment that encourages teamwork, adaptability, and continuous learning. Amartek believes that different backgrounds and perspectives create stronger teams and help achieve greater business goals, making the program a valuable stepping stone for graduates who want to grow, gain real industry exposure, and make an impact in the technology field.
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">Main responsibilities:</p>
+        <div className="mb-8">
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Learned and explored about basic programming (full stack).</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Explored and learned about Java Fundamental (data types, variables, constants, statements, flow control, looping, void/non-void, array, and list data structure).</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Explored and learned about OOP Concept (apply programming elements classes and object, structure form, implement access modifiers, encapsulation and constructor, inheritance of properties, overriding and overloading, abstraction).</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Explored and learned about PL/SQL (advantage, type, structure block and the difference).</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Explored and learned about Java Generic, Java Collection, Java Stream, and Java Database Connectivity (JDBC).</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Understand and use the Spring Boot framework.</p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">▪ Learned about concept of Unit testing and versioning AAA (Arrange-Act-Assert), Software Development Life Cycle (SDLC), Entity Relationship Diagram (ERD), Unified Modeling Language (UML), Business Process Modeling Notation (BPMN), Model, view and controller.</p>
+        </div>
+        {/* <div className="flex flex-row items-left justify-left mb-10 w-full">
+          <AnimatedTooltip items={amartekteam} />
+        </div> */}
+        <div className="grid grid-cols-2 gap-4">
+          <Image src="/timeline/amartek/teamate.jpg" alt="amartek teamate" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          <Image src="/timeline/amartek/team.jpg" alt="amartek team" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          <Image src="/timeline/amartek/team1.jpg" alt="amartek team" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          <Image src="/timeline/amartek/team2.jpg" alt="amartek team" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+        </div>
+      </div>
+    ),
+  },
   {
     title: "2024",
     content: (
