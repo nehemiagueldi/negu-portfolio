@@ -464,7 +464,7 @@ export const amartekteam = [
   }
 ];
 
-export const teamgdp = [
+export const mufteam = [
   {
     id: 1,
     name: "John Doe",
