@@ -95,20 +95,13 @@ const dataTimeline = [
         {/* <div className="flex flex-row items-left justify-left mb-10 w-full">
           <AnimatedTooltip items={amartekteam} />
         </div> */}
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4 mb-8">
           <Image src="/timeline/amartek/teamate.JPG" alt="amartek teamate" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
           <Image src="/timeline/amartek/team.jpg" alt="amartek team" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
           <Image src="/timeline/amartek/team1.jpg" alt="amartek team" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
           <Image src="/timeline/amartek/team2.jpg" alt="amartek team" width={500} height={500} className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
         </div>
-      </div>
-    ),
-  },
-  {
-    title: "2024",
-    content: (
-      <div>
-        {/* EXPERIENCE 1 */}
+        {/* EXPERIENCE 2 */}
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">
           <LinkPreview url="https://www.linkedin.com/company/hirehub-indonesia" imageSrc="/timeline/hirehub/hirehubplaystore.jpeg" isStatic className="hover:no-underline underline transition opacity-100 hover:opacity-60 duration-300 decoration-neutral-300">
             HireHub
@@ -116,7 +109,7 @@ const dataTimeline = [
         </p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal">Self-employed | 1 year 7 mos</p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">Indonesia | Remote</p>
-        {/* POSITION 1 */}
+        {/* POSITION 2 */}
         <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-bold">Chief Technology Officer (CTO)</p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">May 2023 - Aug 2024 | 1 year 4 mos</p>
         <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 text-justify">
